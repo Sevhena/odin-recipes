@@ -3,22 +3,92 @@
     <head>
         <meta charset="utf-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
+        <div class="container">
+            <div class="container-card">
+                <h1>Odin Recipes</h1>
 
-        <ul>
-            <li>
-                <a href="recipes/lasagna.html">Deconstructed Lasagna</a>
-            </li>
-            <li>
-                <a href="recipes/salad.html">Italian Salad</a>
-            </li>
-            <li>
-                <a href="recipes/chicken-stir-fry.html">Honey Garlic Chicken Stir Fry</a>
-            </li>
-        </ul>
+                <div class="card" id="lasagna-overview">
+                    <img src="./img/lasagna.webp" alt="A lasagna.">
+
+                    <div class="recipe-overview">
+                        <h2 class="recipe-link"><a href="./recipes/lasagna.html">Deconstructed Lasagna</a></h2>
+
+                        <section class="recipe-quick-info">
+                            <ul class="quick-info-list">
+                                <li>
+                                    <h3>Preparation Time</h3>
+                                    <p>10 minutes</p>
+                                </li>
+                                <li>
+                                    <h3>Total Time</h3>
+                                    <p>55 minutes</p>
+                                </li>
+                                <li>
+                                    <h3>Yield</h3>
+                                    <p>6 servings</p>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="card" id="salad-overview">
+                    <img src="./img/salad.jpg" alt="A nice salad.">
+
+                    <div class="recipe-overview">
+                        <h2 class="recipe-link"><a href="./recipes/salad.html">Italian Salad</a></h2>
+
+                        <section class="recipe-quick-info">
+                            <ul class="quick-info-list">
+                                <li>
+                                    <h3>Preparation Time</h3>
+                                    <p>10 minutes</p>
+                                </li>
+                                <li>
+                                    <h3>Total Time</h3>
+                                    <p>20 minutes</p>
+                                </li>
+                                <li>
+                                    <h3>Yield</h3>
+                                    <p>6 servings</p>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="card" id="stir-fry-overview">
+                    <img src="./img/stir-fry.webp" alt="A chicken stir-fry.">
+
+                    <div class="recipe-overview">
+                        <h2 class="recipe-link"><a href="./recipes/chicken-stir-fry.html">Honey Garlic Chicken Stir-Fry</a></h2>
+
+                        <section class="recipe-quick-info">
+                            <ul class="quick-info-list">
+                                <li>
+                                    <h3>Preparation Time</h3>
+                                    <p>10 minutes</p>
+                                </li>
+                                <li>
+                                    <h3>Total Time</h3>
+                                    <p>30 minutes</p>
+                                </li>
+                                <li>
+                                    <h3>Yield</h3>
+                                    <p>4 servings</p>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
         
     </body>
 </html>
